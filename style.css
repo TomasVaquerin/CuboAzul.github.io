@@ -1,3 +1,48 @@
+:root {
+    --color--background-w: #F5F5F5;
+    --color--background-b: #121212;
+    --color--circle2: #30475E;
+    --color--circle1: #F05454;
+}
+
 html {
     margin: 0;
+    Width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    Width: 100%;
+    height: 100%;
+    background-color: var(--color--background-b);
+}
+
+.blur {
+    filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.circle {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.circleInside {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.color1 {
+    background-color: var(--color--circle1);
+}
+
+.color2 {
+    background-color: var(--color--circle2);
 }
